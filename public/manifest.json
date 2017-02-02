@@ -1,35 +1,20 @@
 {
-  "short_name": "FrontDaily",
   "name": "Frontend Daily",
-  "background_color": "#4a4a4a",
-  "description": "Your offline guide to learn code.",
-  "icons": [{
-    "src": "frontdaily.png",
-    "sizes": "192x192",
-    "type": "image/png"
-  },
-  {
-    "src": "frontdaily.png",
-    "sizes": "256x256",
-    "type": "image/png"
-  },
-  {
-    "src": "frontdaily.png",
-    "sizes": "384x384",
-    "type": "image/png"
-  },
-  {
-    "src": "frontdaily.png",
-    "sizes": "512x512",
-    "type": "image/png"
-  }],
-  "start_url": "./",
+  "short_name": "Frontdaily",
+  "lang": "es-419",
+  "start_url": "/",
   "display": "fullscreen",
-  "orientation": "portrait",
-  "related_applications": [{
-    "platform": "web"
-  }, {
-    "platform": "play",
-    "url": "https://play.google.com/store/apps/details?id=cheeaun.hackerweb"
-  }]
+  "theme_color": "#4a4a4a",
+  "icons": [
+    {
+      "src": "frontdaily.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "frontdaily.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ]
 }
