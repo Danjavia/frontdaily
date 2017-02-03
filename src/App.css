@@ -18,6 +18,27 @@
   font-size: large;
 }
 
+button {
+  display: block;
+  margin: auto;
+  border: 1px solid #cd3c00;
+  background: #ff4b00;
+  color: white;
+  font-size: 2vw;
+  padding: 10px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+img {
+  padding: 10px;
+}
+
+.geo {
+  margin-bottom: 30px;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
