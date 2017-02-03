@@ -22,17 +22,6 @@ class App extends Component {
         lng: position.coords.longitude
       });
     });
-
-    navigator.mediaDevices.enumerateDevices()
-      .then(function(devices) {
-        devices.forEach(function(device) {
-          alert(device.kind + ": " + device.label +
-            " id = " + device.deviceId);
-        });
-      })
-      .catch(function(err) {
-        console.log(err.name + ": " + err.message);
-      });
   }
 
   screenshot = () => {
